@@ -1,4 +1,6 @@
 {
+
+  "homepage": "https://floredenis2001.github.io/beauty-mockup/",
   "name": "beauty-client",
   "version": "0.1.0",
   "private": true,
@@ -27,6 +29,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "compile:sass": "sass src/scss/main.scss src/App.css"
@@ -50,6 +54,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-slick": "^0.23.13"
+    "@types/react-slick": "^0.23.13",
+    "gh-pages": "^6.1.1"
   }
 }

@@ -3,6 +3,7 @@ import Experience from "../components/Experience";
 import ExposeInfo from "../components/ExposeInfo";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import HeaderMobile from "../components/HeaderMobile";
 import InformativBox from "../components/InformativBox";
 import KnowUs from "../components/KnowUs";
 import MapsContainer from "../components/MapsContainer";
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <body>
       <Header />
+      <HeaderMobile />
       <CarouselSlider />
       <KnowUs />
       <Treatments />

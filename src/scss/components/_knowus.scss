@@ -12,13 +12,37 @@
     width: 100%;
     padding-inline: 1rem;
     max-width: 125rem;
+
+    @include respond(tab-land) {
+      flex-direction: column;
+      gap: 2rem;
+      padding-block: 2rem;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(phone) {
+      align-items:center;
+      padding: 2rem;
+      margin: 0;
+     
+    }
   }
 
   &__pattern {
     position: absolute;
-    top: -15%;
+    top: -10%;
     left: 0;
     z-index: 5;
+    @include respond(tab-land) {
+      position: absolute;
+      top: -4%;
+      left: 20%;
+      z-index: 5;
+    }
+
+    @include respond(phone) {
+      display: none;
+    }
   }
 
   &__right,
@@ -26,6 +50,10 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+
+    @include respond(phone) {
+      width: 90%;
+    }
   }
 
   &__right {
@@ -33,6 +61,10 @@
 
     img {
       z-index: 6;
+
+      @include respond(tab-port) {
+        width: 100%;
+      }
     }
   }
 
@@ -44,11 +76,21 @@
         flex-direction: column;
         gap: 2rem;
         font-family: $font-family;
+        margin-top: 1rem;
 
         h3{
             font-weight: bold;
             font-size: 2rem;
             text-transform: uppercase;
+
+            @include respond(tab-port) {
+                font-size: 1.6rem;
+            }
+
+            @include respond(phone) {
+                font-size: 1.4rem;
+            }
+
            
         }
 
@@ -60,6 +102,10 @@
             display: flex;
             flex-direction: row;
             gap: 1rem;
+
+            @include respond(tab-port) {
+                flex-direction: column;
+            }
 
             &__item{
                 display: flex;

@@ -6,7 +6,15 @@
   margin-block: 5rem;
 
   &__iframe {
+    display: flex;
+    flex-direction: column;
     position: relative;
+    max-width: 100%;
+
+    @include respond(tab-port) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
   &__openProgram {
@@ -22,45 +30,93 @@
     z-index: 50;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 
+    @include respond(tab-land) {
+      width: 25rem;
+      height: 32rem;
+    }
+
+    @include respond(tab-port) {
+     margin-bottom: 2rem;
+    }
+
+    @include respond(tab-port) {
+      position: relative;
+      margin: 0;
+      left: 0;
+      width: fit-content;
+      box-shadow: none;
+      top: 0;
+    }
+
     &__header {
       display: flex;
       align-items: center;
-        justify-content: space-between;
+      justify-content: space-between;
       padding: 2rem;
+
+      @include respond(tab-port) {
+       
+        gap: 2rem;
+      }
+
       h2 {
         font-size: 3rem;
         font-weight: 600;
         color: $color-black;
+
+        @include respond(tab-land) {
+          font-size: 2.5rem;
+        }
+
+        @include respond(phone) {
+          font-size: 2rem;
+        }
       }
 
       svg {
         cursor: pointer;
         font-size: 4rem;
         color: $color-primary;
+
+        @include respond(tab-land) {
+          font-size: 3rem;
+        }
+
+        @include respond(phone) {
+          font-size: 2.5rem;
+        }
       }
     }
 
-    &__content{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 2rem;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 2rem;
 
-        &__box{
-            h4{ 
-                text-transform: uppercase;
-                font-size: 2rem;
-                font-weight: 600;
-                color: $color-grey;
-                letter-spacing: 1px;
-            }
-            p{
-                font-size: 1.8rem;
-                font-weight: 600;
+      &__box {
+        h4 {
+          text-transform: uppercase;
+          font-size: 2rem;
+          font-weight: 600;
+          color: $color-grey;
+          letter-spacing: 1px;
 
-                color: $color-primary;
-            }
+          @include respond(tab-land) {
+            font-size: 1.8rem;
+          }
         }
+        p {
+          font-size: 1.8rem;
+          font-weight: 600;
+
+          color: $color-primary;
+
+          @include respond(tab-land) {
+            font-size: 1.6rem;
+          }
+        }
+      }
     }
   }
 }

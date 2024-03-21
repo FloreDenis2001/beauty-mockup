@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="testimonials__container">
         <div className="testimonials__title">
           <p className="heading__subtitle">Testimoniale</p>
-          <h1 className="heading__title heading__title__3">
+          <h1 className="heading__title heading__title">
             Ce spun clientii nostri
           </h1>
         </div>

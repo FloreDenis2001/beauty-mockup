@@ -4,11 +4,11 @@
 
   &__header {
     background-color: $color-primary;
-    height: 20rem;
+    min-height: 20rem;
   }
 
   &__container {
-    height: 40rem;
+    min-height: 40rem;
     background-color: $color-bg;
     color: $color-white;
     display: flex;
@@ -16,12 +16,27 @@
     justify-content: space-between;
     padding: 5rem 15rem;
 
+    @include respond(tab-land) {
+      padding:0;
+    }
+
     &__actions {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      padding: 0 15rem;
+      padding: 0 3rem;
       margin-top: 5rem;
+
+      @include respond(tab-land) {
+        flex-direction: column;
+        gap: 5rem;
+      }
+
+      @include respond(tab-port) {
+        padding: 2rem;
+      }
+
+      
 
       &__subscribe {
         display: flex;
@@ -167,14 +182,32 @@
     }
 
     &__bottom{
+        margin-top: 2rem;
+        border-top: 1px solid $color-rgba;
+        padding: 2rem 15rem;
         display: flex;
         justify-content: space-between;
+
+        @include respond(tab-port) {
+          flex-direction: column-reverse;
+          gap: 2rem;
+        }
+
+        @include respond(tab-port) {
+          padding: 2rem;
+        }
 
 
         &__content{
             display: flex;
             gap: 1rem;
             align-items: center;
+
+            @include respond(tab-port) {
+              flex-direction: column;
+              text-align: center;
+              gap: 1rem;
+            }
 
             p{
                 font-size: 1.6rem;
@@ -188,6 +221,11 @@
 
                 border-left: 1px solid $color-rgba;
                 padding-left: 1rem;
+
+                @include respond(tab-port) {
+                    border: none;
+                    padding: 0;
+                }
             }
 
             

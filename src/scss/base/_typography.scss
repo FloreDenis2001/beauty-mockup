@@ -20,6 +20,18 @@
     font-weight: 600;
     color: $color-white;
     font-family: $font-family;
+
+    @include respond(tab-land) {
+      font-size: 1.8rem;
+    }
+
+    @include respond(tab-port) {
+      font-size: 1.6rem;
+    }
+
+    @include respond(phone) {
+      font-size: 1.4rem;
+    }
   }
 }
 
@@ -30,6 +42,17 @@
     font-weight: 600;
     color: $color-white;
     font-family: $font-family-2;
+
+    @include respond(tab-land) {
+      font-size: 10rem;
+    }
+    @include respond(tab-port) {
+      font-size: 8rem;
+    }
+
+    @include respond(phone) {
+      font-size: 6rem;
+    }
   }
   &__expo {
     font-size: 5rem;
@@ -38,27 +61,77 @@
     color: $color-white;
     text-align: center;
     font-family: $font-family-3;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+    }
+
+    @include respond(phone) {
+      font-size: 3.2rem;
+    }
   }
 
-  &__title{
+  &__title {
     font-size: 4.4rem;
     font-weight: 600;
     font-family: $font-family-2;
 
-    &__2{
-        font-family: $font-family;
-        color: $color-white;
+    @include respond(tab-land) {
+      font-size: 3.6rem;
     }
 
-    &__3{
-        font-family: $font-family-3;
+    @include respond(tab-port) {
+      font-size: 3.2rem;
+    }
+
+
+
+    &__2 {
+      font-family: $font-family;
+      color: $color-white;
+
+      @include respond(tab-land) {
+        font-size: 3.2rem;
+      }
+    }
+
+    &__3 {
+      font-family: $font-family-3;
+
+      @include respond(tab-land) {
+        font-size: 3.2rem;
+      }
+
+      @include respond(tab-port) {
+        font-size: 2.8rem;
+      }
+
+     
+
+
     }
   }
-  &__subtitle{
+  &__subtitle {
     font-size: 1.6rem;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: $color-primary;
+
+    @include respond(tab-land) {
+      font-size: 1.4rem;
+    }
+
+    @include respond(tab-port) {
+      font-size: 1.2rem;
+    }
+
+    @include respond(phone) {
+      font-size: 1.2rem;
+    }
   }
 }
