@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/beauty-mockup/static/css/main.3f721a79.css",
+    "main.js": "/beauty-mockup/static/js/main.0828e93d.js",
+    "static/js/453.c4a4632b.chunk.js": "/beauty-mockup/static/js/453.c4a4632b.chunk.js",
+    "static/media/bg_2-scaled.jpg": "/beauty-mockup/static/media/bg_2-scaled.65ce44446a859bbbcb19.jpg",
+    "static/media/bg_our-scaled.jpg": "/beauty-mockup/static/media/bg_our-scaled.5455635d5f2d6c7a7f82.jpg",
+    "static/media/background-revslider-07.jpg": "/beauty-mockup/static/media/background-revslider-07.155731651c09f19ca7c7.jpg",
+    "static/media/background-revslider-05.jpg": "/beauty-mockup/static/media/background-revslider-05.b428eced994a5edf1e0b.jpg",
+    "static/media/image-1.png": "/beauty-mockup/static/media/image-1.67cdff503af1cd47a918.png",
+    "static/media/logo.svg": "/beauty-mockup/static/media/logo.62832d6e240cca93f58da1945c39c3a1.svg",
+    "static/media/background-revslider-06.jpg": "/beauty-mockup/static/media/background-revslider-06.5f9cc20e26f38b68fe09.jpg",
+    "static/media/logowhite.svg": "/beauty-mockup/static/media/logowhite.7ddef65c5d38417a1828fb44671d4a9b.svg",
+    "static/media/background-footer.png": "/beauty-mockup/static/media/background-footer.512a15c20bb8f5405c92.png",
+    "static/media/spa-service-02-768x533.jpg": "/beauty-mockup/static/media/spa-service-02-768x533.0826be567b2d068e6b00.jpg",
+    "static/media/spa-service-04-768x533.jpg": "/beauty-mockup/static/media/spa-service-04-768x533.c4b637d67ad30eb05bb3.jpg",
+    "static/media/spa-service-06-768x536.jpg": "/beauty-mockup/static/media/spa-service-06-768x536.377d6938463dd28f0f38.jpg",
+    "static/media/massage_bg.png": "/beauty-mockup/static/media/massage_bg.99fb8ca2e9439ef0bbba.png",
+    "static/media/client-02.jpg": "/beauty-mockup/static/media/client-02.23998c78d18fad162c00.jpg",
+    "static/media/flower_page.png": "/beauty-mockup/static/media/flower_page.df484a61f6d032fe2106.png",
+    "static/media/client-03.jpg": "/beauty-mockup/static/media/client-03.5b89c36a18ff590f3e6b.jpg",
+    "static/media/flowers2.png": "/beauty-mockup/static/media/flowers2.f5dc654f259078fe5d4e.png",
+    "static/media/client-04.jpg": "/beauty-mockup/static/media/client-04.238cb2f9f8764141f31c.jpg",
+    "index.html": "/beauty-mockup/index.html",
+    "main.3f721a79.css.map": "/beauty-mockup/static/css/main.3f721a79.css.map",
+    "main.0828e93d.js.map": "/beauty-mockup/static/js/main.0828e93d.js.map",
+    "453.c4a4632b.chunk.js.map": "/beauty-mockup/static/js/453.c4a4632b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f721a79.css",
+    "static/js/main.0828e93d.js"
+  ]
+}
