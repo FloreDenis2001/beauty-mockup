@@ -1,0 +1,83 @@
+.knowUs {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  &__container {
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding-inline: 1rem;
+    max-width: 125rem;
+  }
+
+  &__pattern {
+    position: absolute;
+    top: -15%;
+    left: 0;
+    z-index: 5;
+  }
+
+  &__right,
+  &__left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  &__right {
+    max-width: 46rem;
+
+    img {
+      z-index: 6;
+    }
+  }
+
+  &__left {
+    max-width: 46rem;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        font-family: $font-family;
+
+        h3{
+            font-weight: bold;
+            font-size: 2rem;
+            text-transform: uppercase;
+           
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+       
+        &__promo{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+
+            &__item{
+                display: flex;
+                flex-direction:row;
+                align-items: flex-start;
+                gap: 1rem;
+
+                svg{
+                    width: 2.6rem;
+                    height: 2.6rem;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+
+    &__btn{
+        margin-top: 2rem;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.informativBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    width: 100%;
+    padding: 5rem;
+    margin-block: 5rem;
+
+    &__item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+
+      
+
+        svg {
+            width: 5rem;
+            height: 5rem;
+            color: $color-primary;
+            
+        }
+
+        &__content{
+            display: flex;
+            flex-direction: column;
+
+            span{
+                font-size: 5rem;
+                color: $color-black;
+                font-family:$font-family-3;
+            }
+
+            p{
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: $color-grey;
+                font-family: $font-family;
+            }
+        }
+    }
+
+}

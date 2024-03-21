@@ -1,0 +1,66 @@
+.map {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+  margin-block: 5rem;
+
+  &__iframe {
+    position: relative;
+  }
+
+  &__openProgram {
+    position: absolute;
+    top: 20%;
+    left: 5rem;
+    width: 100%;
+    height: 100%;
+    background-color: $color-white;
+    width: 32rem;
+    padding: 2rem;
+    height: 35rem;
+    z-index: 50;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+    &__header {
+      display: flex;
+      align-items: center;
+        justify-content: space-between;
+      padding: 2rem;
+      h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: $color-black;
+      }
+
+      svg {
+        cursor: pointer;
+        font-size: 4rem;
+        color: $color-primary;
+      }
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+
+        &__box{
+            h4{ 
+                text-transform: uppercase;
+                font-size: 2rem;
+                font-weight: 600;
+                color: $color-grey;
+                letter-spacing: 1px;
+            }
+            p{
+                font-size: 1.8rem;
+                font-weight: 600;
+
+                color: $color-primary;
+            }
+        }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.text {
+  &__describe {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $color-grey;
+    margin: 0;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      color: $color-primary;
+      transition: color 0.3s ease;
+    }
+  }
+
+  &__carousel {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $color-white;
+    font-family: $font-family;
+  }
+}
+
+.heading {
+  &__carousel {
+    font-size: 12.8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: $color-white;
+    font-family: $font-family-2;
+  }
+  &__expo {
+    font-size: 5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: $color-white;
+    text-align: center;
+    font-family: $font-family-3;
+  }
+
+  &__title{
+    font-size: 4.4rem;
+    font-weight: 600;
+    font-family: $font-family-2;
+
+    &__2{
+        font-family: $font-family;
+        color: $color-white;
+    }
+
+    &__3{
+        font-family: $font-family-3;
+    }
+  }
+  &__subtitle{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $color-primary;
+  }
+}

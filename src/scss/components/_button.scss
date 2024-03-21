@@ -1,0 +1,65 @@
+.btn {
+  &__main {
+    height: 5rem;
+    width: 20rem;
+    max-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-primary;
+    color: $color-white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-primary;
+      border: 1px solid $color-primary;
+      transition: all 0.3s ease;
+    }
+  }
+
+  &__text{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $color-grey;
+    margin: 0;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      color: $color-primary;
+      transition: color 0.3s ease;
+    }
+  
+  }
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  font-size: 1rem;
+  color: $color-white;
+  background: $color-primary;
+  border-radius: 50%;
+}
+
+.iconList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  svg {
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope&family=Parisienne&display=swap');
+
+// COLORS
+
+$color-primary: #de968d;
+$color-secondary: #e98686;
+
+$color-white: #ffffff;
+
+$color-bg:#27252a;
+$color-black: #1b1b1b;
+$color-grey: #89868D;
+
+$color-cream: #FFEED9;
+
+$color-green:#41e7a8;
+$color-green2:#5fb976;
+
+$color-red:#f02f2f;
+$color-red2:#eb8577;
+
+$color-rgba: rgba($color-grey, 0.3);
+
+// GRADIENTS
+$linear-gradient: linear-gradient(90deg, $color-primary 0%, $color-secondary 54%);
+$linear-gradient-2: linear-gradient(150deg, $color-secondary 0%, $color-primary 54%);
+$linear-gradient-3: linear-gradient(150deg, $color-red 0%, $color-red2 54%);
+$linear-gradient-4: linear-gradient(150deg, $color-green 0%, $color-green2 54%);
+$radial-gradient: radial-gradient(circle, $color-primary 0%, $color-secondary 100%);
+$radial-gradient: radial-gradient(circle,$color-secondary 0%, $color-primary 100%);
+
+
+// FONTS 
+$font-family:  "Manrope", sans-serif;
+$font-family-2: "Parisienne", cursive;
+$font-family-3: "Libre Baskerville", serif;

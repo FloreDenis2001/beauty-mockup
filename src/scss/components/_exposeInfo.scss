@@ -1,0 +1,33 @@
+.exposeInfo {
+  position: relative;
+  height: 60rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &__container {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   padding: 5rem;
+    &__btn {
+      margin-top: 5rem;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+    padding: 5rem;
+    width: 90%;
+    height: 100%;
+    border: 1px solid $color-grey;
+  }
+}
