@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beauty-mockup/static/css/main.241e29c8.css",
+    "main.css": "/beauty-mockup/static/css/main.e53c095b.css",
     "main.js": "/beauty-mockup/static/js/main.4be8efb3.js",
     "static/js/453.c4a4632b.chunk.js": "/beauty-mockup/static/js/453.c4a4632b.chunk.js",
     "static/media/bg_2-scaled.jpg": "/beauty-mockup/static/media/bg_2-scaled.65ce44446a859bbbcb19.jpg",
@@ -22,12 +22,12 @@
     "static/media/flowers2.png": "/beauty-mockup/static/media/flowers2.f5dc654f259078fe5d4e.png",
     "static/media/client-04.jpg": "/beauty-mockup/static/media/client-04.238cb2f9f8764141f31c.jpg",
     "index.html": "/beauty-mockup/index.html",
-    "main.241e29c8.css.map": "/beauty-mockup/static/css/main.241e29c8.css.map",
+    "main.e53c095b.css.map": "/beauty-mockup/static/css/main.e53c095b.css.map",
     "main.4be8efb3.js.map": "/beauty-mockup/static/js/main.4be8efb3.js.map",
     "453.c4a4632b.chunk.js.map": "/beauty-mockup/static/js/453.c4a4632b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.241e29c8.css",
+    "static/css/main.e53c095b.css",
     "static/js/main.4be8efb3.js"
   ]
 }
